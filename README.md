@@ -12,24 +12,19 @@ Fornecer uma estrutura completa, modular, segura e normalizada para a criação 
 
 ---
 
-## Estrutura do Repositório
+## Estrutura do Repositório (Consolidada)
+
+O repositório é composto exclusivamente por `README.md`, `PROMPT-AGENTE.md` e 5 arquivos consolidados que contêm toda a base de conhecimento, especificações, evals, templates, licenças e ferramentas:
 
 ```text
 skillforge-frontend-agent/
-├── README.md                          # Visão geral e instruções de manutenção
-├── SOURCES.md                         # Registro de procedência, hashes e licenças
-├── KNOWLEDGE-INDEX.md                 # Índice e política de recuperação de conhecimento
-├── UPLOAD-MANIFEST.md                 # Manifesto de arquivos para LibreChat / Pergunte Aí
-├── PROMPT-AGENTE.md                   # Prompt de sistema principal pronto para uso
-├── sources/                           # Snapshots e metadados de fontes externas
-│   └── upstream/                      # Registros imutáveis por repositório de origem
-├── knowledge/                         # Base de conhecimento normalizada
-│   ├── normalized/                    # Guias temáticos normalizados em Markdown
-│   └── examples/                      # Exemplos de boas e más skills de front-end
-├── templates/                         # Modelos padrão de skills
-│   └── frontend-skill/                # Template de skill de front-end com SKILL.md
-├── evals/                             # Cenários de teste e avaliação do agente
-└── scripts/                           # Scripts utilitários em Python para validação
+├── README.md                           # Visão geral e mapa da estrutura consolidada
+├── PROMPT-AGENTE.md                    # Prompt de sistema principal pronto para uso
+├── 01-VISUAL-DESIGN-AND-UI.md          # Consolidado: Direção estética, tipografia, cores, layout e UI
+├── 02-ENGINEERING-AND-PERFORMANCE.md   # Consolidado: Design systems, a11y, performance React/Next e qualidade
+├── 03-AUTHORING-TEMPLATES-EVALS.md     # Consolidado: Autoria de skills, templates e suíte de testes (Evals)
+├── 04-SOURCES-AND-LICENSES.md          # Consolidado: Registro de procedência, fontes upstream e licenças
+└── 05-MANIFEST-AND-TOOLING.md          # Consolidado: Manifesto de upload para IA e utilitários Python
 ```
 
 ---
