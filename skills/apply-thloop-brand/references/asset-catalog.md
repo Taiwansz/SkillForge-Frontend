@@ -15,13 +15,14 @@
 | `assets/visual/chicane-divider.svg` | Section divider |
 | `assets/visual/chicane-pattern.svg` | Repeating pattern source |
 | `assets/icons/favicon.svg` | Browser favicon |
-| `assets/icons/app-icon.svg` | Base square app icon |
+| `assets/icons/app-icon.svg` | Opaque square app/touch icon source; rounded keyline is internal artwork, not alpha |
 | `assets/png/*.png` | Raster fallbacks and common export sizes |
-| `assets/reference/thloop-brand-system.png` | Approved visual direction board; reference only |
-| `assets/reference/mockups/equipment-kit.png` | Equipment and delivery-kit application reference |
-| `assets/reference/mockups/apparel.png` | Apparel and embroidery application reference |
-| `assets/reference/mockups/digital-system.png` | Product UI and digital application reference |
-| `assets/reference/mockups/hackathon-space.png` | Environmental and hackathon-space reference |
+| `assets/reference/thloop-brand-system.png` | Brand-system presentation generated from canonical assets |
+| `assets/reference/thloop-applications.png` | Deterministic applications using embedded canonical assets |
+| `assets/reference/mockups/equipment-kit.png` | Compatibility alias for the deterministic brand-system board |
+| `assets/reference/mockups/apparel.png` | Compatibility alias for exact-master applications; no AI-interpreted lettering |
+| `assets/reference/mockups/digital-system.png` | Compatibility alias for exact-master applications; no AI-interpreted lettering |
+| `assets/reference/mockups/hackathon-space.png` | Compatibility alias for exact-master applications; no AI-interpreted lettering |
 
 ## Tokens and templates
 
@@ -30,12 +31,15 @@
 | `assets/tokens/thloop.css` | CSS custom properties and base theme |
 | `assets/tokens/thloop.tokens.json` | Platform-neutral design tokens |
 | `assets/tokens/tailwind-preset.ts` | Tailwind theme extension |
-| `assets/templates/react/ThLoopLogo.tsx` | Responsive full/compact React component |
+| `assets/templates/react/ThLoopLogo.tsx` | Full/compact React component; parent layout chooses `compact` below 160px |
 | `assets/templates/react/ThLoopShell.css` | Branded shell primitives |
+| `scripts/build_brand_boards.py` | Rebuild deterministic reference/application boards from canonical assets |
 
 ## Rules
 
 - Copy only needed assets into the destination project.
 - Prefer SVG unless raster is required.
 - Do not edit canonical SVG paths inside a product project. Create a documented new derivative only when production constraints demand it.
-- Use the reference PNG to understand composition, not as the source for extracting or tracing the logo.
+- Use only files in `assets/logos/` and `assets/marks/` as logo masters. Any logo visible inside a reference image or mockup is non-authoritative.
+- Monochrome masters preserve the gold-notch geometry in `currentColor`; they change color count, never silhouette.
+- Run `scripts/build_brand_boards.py` to refresh both canonical boards and all four compatibility aliases together.

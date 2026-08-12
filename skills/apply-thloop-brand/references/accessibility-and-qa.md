@@ -6,6 +6,8 @@
 
 - [ ] Full wordmark comes from `assets/logos/`.
 - [ ] Compact mark is Twin Chamber from `assets/marks/`.
+- [ ] No logo was cropped, traced, regenerated, or copied from a mockup/reference PNG.
+- [ ] Every raster logo was exported from the canonical SVG and matches its aspect ratio.
 - [ ] Chicane Cut is not presented as a logo.
 - [ ] Wordmark aspect ratio is unchanged.
 - [ ] Gold occupies no more than 5%, preferably 1–3%.

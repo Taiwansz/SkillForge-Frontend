@@ -1,47 +1,52 @@
 {
+  "icon.svg": {
+    "sha256": "8af350f925d3b37ef6d493a2a8100f4126f2914f6f2a0c944385de547abacfeb",
+    "bytes": 3126,
+    "viewBox": "0 0 1024 1024"
+  },
   "icons/app-icon.svg": {
-    "sha256": "fe7dae9c50a08d9ccb12fac5c910640acf77d02bc15f8b4bbb413cdb851ee1e2",
-    "bytes": 1052,
+    "sha256": "8af350f925d3b37ef6d493a2a8100f4126f2914f6f2a0c944385de547abacfeb",
+    "bytes": 3126,
     "viewBox": "0 0 1024 1024"
   },
   "icons/favicon.svg": {
-    "sha256": "f2caf9e1ad7c723f5338815ad010f44d8bd6f99b95a83e467e5004ebcddf221d",
-    "bytes": 946,
+    "sha256": "ef98a94a63af890ca5d54232d8534b3e6acba87fee60a1d8b3ee5bbd4d8965e4",
+    "bytes": 3127,
     "viewBox": "0 0 512 512"
   },
   "logos/thloop-continuous-core-dark.svg": {
-    "sha256": "f327c790b51ad6adbd7d41c2445414b8cbe1a35ca629bcdf6f87b5e5c30326a4",
-    "bytes": 1299,
-    "viewBox": "0 0 1080 260"
+    "sha256": "86bc1360e3955336313e9506d389f0b97664462cc4e6736a02bdcc6aa692e5f1",
+    "bytes": 5440,
+    "viewBox": "0 0 854 186"
   },
   "logos/thloop-continuous-core-light.svg": {
-    "sha256": "dd5ec48774ea389b729eb4ad2812000f4d85a6e4c2caca8f0c6ba2f1f7aee81f",
-    "bytes": 1300,
-    "viewBox": "0 0 1080 260"
+    "sha256": "4c02d8cabce1e7c747e4a2570d1b49e60a00f7d8ce80ec87b8f014e4da2887ab",
+    "bytes": 5440,
+    "viewBox": "0 0 854 186"
   },
   "logos/thloop-continuous-core-mono.svg": {
-    "sha256": "8039a5b4276b9ac592182c0dd44b558ec810e9c9293c9da6f46219e402e86375",
-    "bytes": 1182,
-    "viewBox": "0 0 1080 260"
+    "sha256": "503f822826f96b1c0f6070b0b1c6e9e73964b18bfd17dbd04e52c746f0e370aa",
+    "bytes": 5441,
+    "viewBox": "0 0 854 186"
   },
   "marks/twin-chamber-dark.svg": {
-    "sha256": "d31466d6eba31784a4cef415d9c50ef8113386f38d0afab0167e80e22f551f80",
-    "bytes": 914,
-    "viewBox": "0 0 420 260"
+    "sha256": "7d545b318fffd957561d446c688f6d4ae7bab8f6e46bc91f6b24d562b89b2035",
+    "bytes": 2907,
+    "viewBox": "0 0 251 132"
   },
   "marks/twin-chamber-light.svg": {
-    "sha256": "2ba484fd15b254ed5c90ef9602f9a169311522632e2aaa09b012dc96a7caa886",
-    "bytes": 915,
-    "viewBox": "0 0 420 260"
+    "sha256": "ccbbe611a1aaad374e42537d4636a8ccd2f992ab3e1d4034d0bf1aa604f407f7",
+    "bytes": 2907,
+    "viewBox": "0 0 251 132"
   },
   "marks/twin-chamber-mono.svg": {
-    "sha256": "bae9a02a1f5d74a5feb0d72508fae94feafaac6a5d3aea0b593e3262a6afd6ae",
-    "bytes": 776,
-    "viewBox": "0 0 420 260"
+    "sha256": "a4f6eb6bd33be3cc3083c76898762db6bf39424deb049cbf18506747ce18ee38",
+    "bytes": 2897,
+    "viewBox": "0 0 251 132"
   },
   "png/app-icon-1024.png": {
-    "sha256": "d56ff036b722062988081c2bd1304a66e40a037097b3e1974fec7313d3f38273",
-    "bytes": 43149,
+    "sha256": "b62f8e333de69ebd6163cf014f8253e9cac9fc9f39de824675541e8d996c09ba",
+    "bytes": 41998,
     "dimensions": [
       1024,
       1024
@@ -49,8 +54,8 @@
     "mode": "RGBA"
   },
   "png/app-icon-512.png": {
-    "sha256": "8096002f3069cb95ee594d37b006fa6e8ba63dcc15a1120fee2d6da89c1d22ac",
-    "bytes": 20256,
+    "sha256": "3be28d0d177eb3cc2e0ead2aac74d9b8fced70b05440bbfdad18305c1297207c",
+    "bytes": 19727,
     "dimensions": [
       512,
       512
@@ -58,8 +63,8 @@
     "mode": "RGBA"
   },
   "png/apple-touch-icon-180.png": {
-    "sha256": "081aad2f22e70aaa4aed46cc3ed2e8cbe855a1143e523700bbc303d20e8c9650",
-    "bytes": 5335,
+    "sha256": "9e8cd36f3568f279ee8de71c66e407277f62f12feed732b0b09c37614c7d5f84",
+    "bytes": 6414,
     "dimensions": [
       180,
       180
@@ -67,8 +72,8 @@
     "mode": "RGBA"
   },
   "png/favicon-32.png": {
-    "sha256": "1ca6be2db28702e72e9c73fe1cc15d8b57cf00c8a4f7ae8e26925d9a89db409c",
-    "bytes": 1037,
+    "sha256": "931150de30b46e332edf20bd140f21797fe41d134e7460fce53a20f0879165b8",
+    "bytes": 1250,
     "dimensions": [
       32,
       32
@@ -76,97 +81,106 @@
     "mode": "RGBA"
   },
   "png/thloop-wordmark-dark-1080.png": {
-    "sha256": "11049346bc948a88e9b561f7af1195c5db31b451e81172892c5563b25860c3ba",
-    "bytes": 10976,
+    "sha256": "671e1811719d30835c2e965536fddee5024dad4f5adce1672869e301ece9b115",
+    "bytes": 18408,
     "dimensions": [
       1080,
-      260
+      235
     ],
     "mode": "RGBA"
   },
   "png/thloop-wordmark-light-1080.png": {
-    "sha256": "f51917d94ddb9e4ead3945c6c01b3f9e3f0f3b03e204c06269c18b8ce872cd4e",
-    "bytes": 11180,
+    "sha256": "eb55b958f0df5b41e2cb18f2faa2efc1aca97acae10d2e90fe5f600d59a24772",
+    "bytes": 19474,
     "dimensions": [
       1080,
-      260
+      235
     ],
     "mode": "RGBA"
   },
   "png/twin-chamber-dark-512.png": {
-    "sha256": "3a2faf1860b962046372b075e5aa20544f5b52672a16e9880175d56e784c4f8f",
-    "bytes": 11704,
+    "sha256": "75bc1fd3a5e8dc3f0b7d21e7fc8f648df6fc8d523fe22babc9845b0b1ecc9eb9",
+    "bytes": 13358,
     "dimensions": [
       512,
-      317
+      269
     ],
     "mode": "RGBA"
   },
   "png/twin-chamber-light-512.png": {
-    "sha256": "dbee55bbc1b08c4a6b1fc99538c92e89d12e8c6d93ad45ccd2ead524c6104c3f",
-    "bytes": 11949,
+    "sha256": "f8f1dee321346b5a4c146c674a7fb2d00d9aa1bba93df7cbc12828a8c5c965f4",
+    "bytes": 13847,
     "dimensions": [
       512,
-      317
+      269
     ],
     "mode": "RGBA"
   },
   "reference/mockups/apparel.png": {
-    "sha256": "e4e4a6da5fa0a39045c839d71a7b6c1b6665e19302be49933615e139eb5f2db5",
-    "bytes": 281792,
+    "sha256": "e40a69129dbbeb52ccd001d5c3274219165247792f7aceb574df6431504f3ac4",
+    "bytes": 95304,
     "dimensions": [
-      1200,
-      900
+      1600,
+      1100
     ],
-    "mode": "P"
+    "mode": "RGB"
   },
   "reference/mockups/digital-system.png": {
-    "sha256": "94ebfce58ff9fc5c304c46a12393dafd07b171e00c1d01ba7fe956522ff3330f",
-    "bytes": 126747,
+    "sha256": "e40a69129dbbeb52ccd001d5c3274219165247792f7aceb574df6431504f3ac4",
+    "bytes": 95304,
     "dimensions": [
-      1200,
-      675
+      1600,
+      1100
     ],
-    "mode": "P"
+    "mode": "RGB"
   },
   "reference/mockups/equipment-kit.png": {
-    "sha256": "ac5b3dcd727182858872220b0e41ec62ab41be8689adf36a80b5fe8f1daaa437",
-    "bytes": 188242,
+    "sha256": "57166a14b1d3e431e75f396799fc01c6f0d939d628830292507c72240f04649c",
+    "bytes": 91474,
     "dimensions": [
-      1200,
-      751
+      1600,
+      1100
     ],
-    "mode": "P"
+    "mode": "RGB"
   },
   "reference/mockups/hackathon-space.png": {
-    "sha256": "9ac2b59a0e0b83276f72bf628f15c59814dcbd9cf8ae5d633bdccfce058de827",
-    "bytes": 164860,
+    "sha256": "e40a69129dbbeb52ccd001d5c3274219165247792f7aceb574df6431504f3ac4",
+    "bytes": 95304,
     "dimensions": [
-      1200,
-      675
+      1600,
+      1100
     ],
-    "mode": "P"
+    "mode": "RGB"
+  },
+  "reference/thloop-applications.png": {
+    "sha256": "e40a69129dbbeb52ccd001d5c3274219165247792f7aceb574df6431504f3ac4",
+    "bytes": 95304,
+    "dimensions": [
+      1600,
+      1100
+    ],
+    "mode": "RGB"
   },
   "reference/thloop-brand-system.png": {
-    "sha256": "3c851635bc0698aaaea1a3a274b053dccdbdbdaf526039aac9c9206ace262be2",
-    "bytes": 136326,
+    "sha256": "57166a14b1d3e431e75f396799fc01c6f0d939d628830292507c72240f04649c",
+    "bytes": 91474,
     "dimensions": [
-      1200,
-      800
+      1600,
+      1100
     ],
-    "mode": "P"
+    "mode": "RGB"
   },
   "templates/react/ThLoopLogo.tsx": {
-    "sha256": "1f86a4219eabfb6374f290f38555877d848402167633a7873e7783898afda04e",
-    "bytes": 1043
+    "sha256": "4e33a457a142619589b167ee57e7cbc05bb5793a497719744e362dcae00c5449",
+    "bytes": 1199
   },
   "templates/react/ThLoopShell.css": {
     "sha256": "fc2d01db5d6c1c186d77581f05100bf40953002c1437d92f260c21a8424c3cab",
     "bytes": 1512
   },
   "templates/thloop-starter.html": {
-    "sha256": "30026423e2322e8ae1746b69ab7fc16e089422d99e569bb044668de2f4516535",
-    "bytes": 1940
+    "sha256": "b8228c11f8763c69dcee902ff1cdcad2b69f02277300401350e0387704a0ff9d",
+    "bytes": 1939
   },
   "tokens/tailwind-preset.ts": {
     "sha256": "d839c7f6e670494e5d73f99cdd749d383134e3e11361b9b8d7db655add8a301e",
