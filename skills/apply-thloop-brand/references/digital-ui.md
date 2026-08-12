@@ -88,7 +88,7 @@ Use neutral chart series by default. Use gold for one selected series or referen
 - Design at 375px first.
 - Verify at 768px and 1440px.
 - Preserve the full wordmark above its minimum legible width; swap to Twin Chamber below it.
-- Never squeeze the wordmark. Replace it responsively.
+- Never squeeze the wordmark below 160px. The parent layout must set `compact` on `ThLoopLogo` and replace it with Twin Chamber when less width is available.
 - Keep all touch controls at least 44×44px.
 - Ensure Chicane crops do not create accidental horizontal overflow.
 
@@ -97,4 +97,3 @@ Use neutral chart series by default. Use gold for one selected series or referen
 - Use Twin Chamber for favicon and app icon.
 - Use the full wordmark for Open Graph images and branded boot screens.
 - Add descriptive alt text for informative brand imagery; mark purely decorative Chicane elements with empty alt text or `aria-hidden="true"`.
-

@@ -1,7 +1,12 @@
 {
+  "icon.svg": {
+    "sha256": "8af350f925d3b37ef6d493a2a8100f4126f2914f6f2a0c944385de547abacfeb",
+    "bytes": 3126,
+    "viewBox": "0 0 1024 1024"
+  },
   "icons/app-icon.svg": {
-    "sha256": "48c800111f403095e212ba1f7a98789496cc9231d4f2d526861ea3441d45d7b1",
-    "bytes": 3135,
+    "sha256": "8af350f925d3b37ef6d493a2a8100f4126f2914f6f2a0c944385de547abacfeb",
+    "bytes": 3126,
     "viewBox": "0 0 1024 1024"
   },
   "icons/favicon.svg": {
@@ -20,8 +25,8 @@
     "viewBox": "0 0 854 186"
   },
   "logos/thloop-continuous-core-mono.svg": {
-    "sha256": "53ebf1340aae1eec0e1648be4bf425417a0edcc86aa0d3a80cd0d220c99783c9",
-    "bytes": 5198,
+    "sha256": "503f822826f96b1c0f6070b0b1c6e9e73964b18bfd17dbd04e52c746f0e370aa",
+    "bytes": 5441,
     "viewBox": "0 0 854 186"
   },
   "marks/twin-chamber-dark.svg": {
@@ -35,13 +40,13 @@
     "viewBox": "0 0 251 132"
   },
   "marks/twin-chamber-mono.svg": {
-    "sha256": "eeaefe5216b3bcfd2f8c0af882805e345f93beba508d5eb741609f6f25e19ff7",
-    "bytes": 2674,
+    "sha256": "a4f6eb6bd33be3cc3083c76898762db6bf39424deb049cbf18506747ce18ee38",
+    "bytes": 2897,
     "viewBox": "0 0 251 132"
   },
   "png/app-icon-1024.png": {
-    "sha256": "47101e25e91cebfbfd5cf950622c55d52221736b94a8bd254eb6df53810fdc79",
-    "bytes": 51063,
+    "sha256": "b62f8e333de69ebd6163cf014f8253e9cac9fc9f39de824675541e8d996c09ba",
+    "bytes": 41998,
     "dimensions": [
       1024,
       1024
@@ -49,8 +54,8 @@
     "mode": "RGBA"
   },
   "png/app-icon-512.png": {
-    "sha256": "7ce1ea8aeb64be0966cb89c457faf1a3feddefc2959724e5db31ef10328ba841",
-    "bytes": 23759,
+    "sha256": "3be28d0d177eb3cc2e0ead2aac74d9b8fced70b05440bbfdad18305c1297207c",
+    "bytes": 19727,
     "dimensions": [
       512,
       512
@@ -58,8 +63,8 @@
     "mode": "RGBA"
   },
   "png/apple-touch-icon-180.png": {
-    "sha256": "aab8f809a5cf64684ff67c5c60228ed8e1dac190e035159c2711b8a91dec6375",
-    "bytes": 7391,
+    "sha256": "9e8cd36f3568f279ee8de71c66e407277f62f12feed732b0b09c37614c7d5f84",
+    "bytes": 6414,
     "dimensions": [
       180,
       180
@@ -166,8 +171,8 @@
     "mode": "RGB"
   },
   "templates/react/ThLoopLogo.tsx": {
-    "sha256": "1df4f08616aa7f357575bc77e6ebd1f08b73f9092e4f1b68ddda703c9cd381a9",
-    "bytes": 1042
+    "sha256": "4e33a457a142619589b167ee57e7cbc05bb5793a497719744e362dcae00c5449",
+    "bytes": 1199
   },
   "templates/react/ThLoopShell.css": {
     "sha256": "fc2d01db5d6c1c186d77581f05100bf40953002c1437d92f260c21a8424c3cab",

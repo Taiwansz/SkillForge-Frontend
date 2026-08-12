@@ -1,6 +1,7 @@
 import type { CSSProperties } from "react";
 
 type ThLoopLogoProps = {
+  /** Use Twin Chamber when the layout cannot provide at least 160px to the wordmark. */
   compact?: boolean;
   className?: string;
   priority?: boolean;
@@ -36,7 +37,7 @@ export function ThLoopLogo({
       fetchPriority={priority ? "high" : "auto"}
       height={compact ? 132 : 186}
       src={src}
-      style={{ display: "block", height: "auto", maxWidth: "100%", ...style }}
+      style={{ display: "block", height: "auto", maxWidth: compact ? "100%" : "min(100%, 854px)", minWidth: compact ? undefined : 160, ...style }}
       width={compact ? 251 : 854}
     />
   );

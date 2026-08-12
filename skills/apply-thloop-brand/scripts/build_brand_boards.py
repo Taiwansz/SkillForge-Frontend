@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import pathlib
+import shutil
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -171,8 +172,18 @@ def main() -> int:
     args.applications.parent.mkdir(parents=True, exist_ok=True)
     build_system(args.system)
     build_applications(args.applications)
+    aliases = {
+        ASSETS / "reference/mockups/equipment-kit.png": args.system,
+        ASSETS / "reference/mockups/apparel.png": args.applications,
+        ASSETS / "reference/mockups/digital-system.png": args.applications,
+        ASSETS / "reference/mockups/hackathon-space.png": args.applications,
+    }
+    for alias, source in aliases.items():
+        alias.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(source, alias)
     print(f"built {args.system.relative_to(ROOT)}")
     print(f"built {args.applications.relative_to(ROOT)}")
+    print("refreshed 4 compatibility aliases")
     return 0
 
 

@@ -49,8 +49,6 @@ def main() -> int:
         if not path.is_file() or path.name == "asset-manifest.json":
             continue
         relative = path.relative_to(ASSETS).as_posix()
-        if relative == "icon.svg":
-            continue
         raw = path.read_bytes()
         entry: dict[str, object] = {"sha256": hashlib.sha256(raw).hexdigest(), "bytes": len(raw)}
         if path.suffix.lower() == ".svg":
