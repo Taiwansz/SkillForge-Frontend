@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0A0A0A" />
+    <title>ThLoop — Continuous Core</title>
+    <link rel="icon" href="./brand/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./brand/thloop.css" />
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--tl-bg); color: var(--tl-text); font-family: var(--tl-font-body); }
+      header, main { width: min(100% - 2rem, 90rem); margin-inline: auto; }
+      header { display: flex; align-items: center; justify-content: space-between; min-height: 5rem; border-bottom: 1px solid var(--tl-border-subtle); }
+      header img { width: 10rem; }
+      main { min-height: calc(100dvh - 5rem); display: grid; align-content: center; padding-block: 4rem; }
+      .eyebrow { color: var(--tl-text-secondary); font: 0.75rem/1.4 var(--tl-font-mono); letter-spacing: .16em; text-transform: uppercase; }
+      h1 { max-width: 12ch; margin: 1rem 0; font-size: clamp(3rem, 9vw, 8rem); line-height: .88; letter-spacing: -.055em; }
+      p { max-width: 56ch; color: var(--tl-text-secondary); font-size: 1.125rem; line-height: 1.6; }
+      .chicane { width: min(34rem, 100%); margin-top: 3rem; }
+      @media (min-width: 48rem) { header, main { width: min(100% - 4rem, 90rem); } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./brand/thloop-continuous-core-light.svg" alt="ThLoop" width="1080" height="260" />
+      <span class="eyebrow">System ready</span>
+    </header>
+    <main>
+      <span class="eyebrow">Continuous Core / 01</span>
+      <h1>Precisão em cada iteração.</h1>
+      <p>Uma estrutura funcional antes de ser bonita — e bonita porque funciona.</p>
+      <img class="chicane" src="./brand/chicane-divider.svg" alt="" aria-hidden="true" />
+    </main>
+  </body>
+</html>

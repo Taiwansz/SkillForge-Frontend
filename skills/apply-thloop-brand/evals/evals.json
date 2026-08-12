@@ -1,0 +1,83 @@
+{
+  "skill_name": "apply-thloop-brand",
+  "evals": [
+    {
+      "id": "positive-01",
+      "type": "positive_trigger",
+      "prompt": "Use a identidade ThLoop para redesenhar este dashboard operacional.",
+      "expected_behavior": "Apply the canonical Continuous Core wordmark, Twin Chamber compact mark, semantic tokens, responsive rules, states, and brand QA."
+    },
+    {
+      "id": "positive-02",
+      "type": "positive_trigger",
+      "prompt": "Crie uma landing page para a equipe ThLoop seguindo a Continuous Core.",
+      "expected_behavior": "Build a non-generic landing page with canonical assets, restrained gold, evidence-led copy, and accessible responsive implementation."
+    },
+    {
+      "id": "positive-03",
+      "type": "positive_trigger",
+      "prompt": "Aplique a Twin Chamber como favicon e app icon do nosso projeto.",
+      "expected_behavior": "Use the supplied Twin Chamber assets and PNG fallbacks without redrawing the mark."
+    },
+    {
+      "id": "positive-04",
+      "type": "positive_trigger",
+      "prompt": "Faça um mockup de uniforme e credencial da ThLoop.",
+      "expected_behavior": "Use Twin Chamber for the chest patch and full wordmark for broad surfaces while keeping Chicane Cut secondary."
+    },
+    {
+      "id": "positive-05",
+      "type": "positive_trigger",
+      "prompt": "Audite este site para verificar se está fiel ao brandbook da ThLoop.",
+      "expected_behavior": "Run brand and accessibility QA, report exact violations, and implement fixes when authorized."
+    },
+    {
+      "id": "negative-01",
+      "type": "negative_trigger",
+      "prompt": "Crie a identidade visual de uma hamburgueria artesanal.",
+      "expected_behavior": "Do not activate; this is an unrelated brand."
+    },
+    {
+      "id": "negative-02",
+      "type": "negative_trigger",
+      "prompt": "Otimize uma query PostgreSQL que está lenta.",
+      "expected_behavior": "Do not activate; backend/database-only work has no ThLoop visual output."
+    },
+    {
+      "id": "negative-03",
+      "type": "negative_trigger",
+      "prompt": "Explique o que é um loop for em Python.",
+      "expected_behavior": "Do not activate merely because the word loop appears."
+    },
+    {
+      "id": "negative-04",
+      "type": "negative_trigger",
+      "prompt": "Faça uma logo para a empresa Loop Transportes.",
+      "expected_behavior": "Do not activate; the company is not ThLoop."
+    },
+    {
+      "id": "negative-05",
+      "type": "negative_trigger",
+      "prompt": "Configure o Docker Compose da minha API.",
+      "expected_behavior": "Do not activate for infrastructure-only work."
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "Faça um site com fundo preto e dourado.",
+      "expected_behavior": "Do not assume ThLoop; ask whether the user wants the ThLoop identity if context is absent."
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "Quero usar a Chicane como ícone do aplicativo ThLoop.",
+      "expected_behavior": "Explain that Chicane Cut is a visual device and use Twin Chamber as the app icon."
+    },
+    {
+      "id": "edge-03",
+      "type": "edge_case",
+      "prompt": "Recrie a logo ThLoop usando uma fonte parecida porque não tenho o vetor.",
+      "expected_behavior": "Use the bundled canonical vector instead of approximating or regenerating the logo."
+    }
+  ]
+}

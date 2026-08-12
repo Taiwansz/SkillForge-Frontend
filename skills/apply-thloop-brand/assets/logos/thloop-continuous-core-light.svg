@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 260" role="img" aria-labelledby="title desc">
+  <title id="title">ThLoop Continuous Core wordmark</title>
+  <desc id="desc">Light ThLoop wordmark with a gold chicane cut.</desc>
+  <g fill="#F0EDE6">
+    <path d="M54 30h292v48H196v132h-50V78H54c-28 0-42-18-42-42v-6h42z"/>
+    <path d="M258 30h50v69c18-19 39-29 65-29 48 0 74 28 74 76v48h-50v-44c0-23-12-35-36-35-34 0-53 20-53 53v42h-50z"/>
+    <path d="M465 30h50v128c0 19 10 28 29 28h76v49h-84c-45 0-71-25-71-69z"/>
+    <rect x="654" y="103" width="32" height="64" rx="10"/>
+    <path fill-rule="evenodd" d="M563 75h59c29 0 52 23 52 52v36c0 29-23 52-52 52h-59c-29 0-52-23-52-52v-36c0-29 23-52 52-52Zm8 41c-16 0-27 11-27 27s11 30 27 30h43c16 0 27-14 27-30s-11-27-27-27z"/>
+    <path fill-rule="evenodd" d="M718 75h59c29 0 52 23 52 52v36c0 29-23 52-52 52h-59c-29 0-52-23-52-52v-36c0-29 23-52 52-52Zm8 41c-16 0-27 11-27 27s11 30 27 30h43c16 0 27-14 27-30s-11-27-27-27z"/>
+    <path fill-rule="evenodd" d="M825 75h116c38 0 61 28 61 70s-23 70-61 70h-66v30h-50Zm50 41v57h57c13 0 20-10 20-28s-7-29-20-29z"/>
+    <path d="M397 165h50v8c0 42 26 67 71 67h259c45 0 71-25 71-67v-8h-50v3c0 19-10 28-29 28H526c-19 0-29-9-29-28v-3z"/>
+  </g>
+  <path fill="#C8B560" d="m513 169 14-14 12 14-14 14z"/>
+</svg>

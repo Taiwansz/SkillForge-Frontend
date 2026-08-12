@@ -1,0 +1,15 @@
+interface:
+  display_name: ThLoop Brand System
+  short_description: Crie interfaces fiéis à identidade ThLoop
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#C8B560'
+  default_prompt: Use $apply-thloop-brand para criar esta interface seguindo integralmente
+    a identidade visual ThLoop.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

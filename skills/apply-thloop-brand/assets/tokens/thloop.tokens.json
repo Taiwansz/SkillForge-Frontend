@@ -1,0 +1,38 @@
+{
+  "$schema": "https://tr.designtokens.org/format/",
+  "color": {
+    "brand": {
+      "loopBlack": { "$type": "color", "$value": "#0A0A0A" },
+      "technicalPaper": { "$type": "color", "$value": "#F0EDE6" },
+      "chicaneGold": { "$type": "color", "$value": "#C8B560" },
+      "chassis": { "$type": "color", "$value": "#2A2A2A" },
+      "smokedMirror": { "$type": "color", "$value": "#5C5C5C" }
+    },
+    "semantic": {
+      "background": { "$type": "color", "$value": "{color.brand.loopBlack}" },
+      "surface": { "$type": "color", "$value": "{color.brand.chassis}" },
+      "text": { "$type": "color", "$value": "{color.brand.technicalPaper}" },
+      "border": { "$type": "color", "$value": "{color.brand.smokedMirror}" },
+      "accent": { "$type": "color", "$value": "{color.brand.chicaneGold}" }
+    }
+  },
+  "space": {
+    "1": { "$type": "dimension", "$value": { "value": 4, "unit": "px" } },
+    "2": { "$type": "dimension", "$value": { "value": 8, "unit": "px" } },
+    "3": { "$type": "dimension", "$value": { "value": 12, "unit": "px" } },
+    "4": { "$type": "dimension", "$value": { "value": 16, "unit": "px" } },
+    "6": { "$type": "dimension", "$value": { "value": 24, "unit": "px" } },
+    "8": { "$type": "dimension", "$value": { "value": 32, "unit": "px" } },
+    "12": { "$type": "dimension", "$value": { "value": 48, "unit": "px" } },
+    "16": { "$type": "dimension", "$value": { "value": 64, "unit": "px" } }
+  },
+  "radius": {
+    "small": { "$type": "dimension", "$value": { "value": 4, "unit": "px" } },
+    "medium": { "$type": "dimension", "$value": { "value": 8, "unit": "px" } }
+  },
+  "duration": {
+    "fast": { "$type": "duration", "$value": { "value": 160, "unit": "ms" } },
+    "base": { "$type": "duration", "$value": { "value": 260, "unit": "ms" } },
+    "slow": { "$type": "duration", "$value": { "value": 360, "unit": "ms" } }
+  }
+}

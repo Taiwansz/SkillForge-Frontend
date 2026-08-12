@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-labelledby="title">
+  <title id="title">ThLoop Twin Chamber monochrome compact mark</title>
+  <g fill="currentColor">
+    <rect x="194" y="66" width="32" height="64" rx="10"/>
+    <path fill-rule="evenodd" d="M96 28h62c29 0 52 23 52 52v37c0 29-23 52-52 52H96c-29 0-52-23-52-52V80c0-29 23-52 52-52Zm8 42c-16 0-27 11-27 27s11 30 27 30h46c16 0 27-14 27-30s-11-27-27-27z"/>
+    <path fill-rule="evenodd" d="M262 28h62c29 0 52 23 52 52v37c0 29-23 52-52 52h-62c-29 0-52-23-52-52V80c0-29 23-52 52-52Zm8 42c-16 0-27 11-27 27s11 30 27 30h46c16 0 27-14 27-30s-11-27-27-27z"/>
+    <path d="M24 145v27c0 40 29 65 72 65h232c44 0 68-25 68-65v-27h-43v23c0 18-10 27-28 27H97c-19 0-30-9-30-27v-23z"/>
+  </g>
+</svg>
