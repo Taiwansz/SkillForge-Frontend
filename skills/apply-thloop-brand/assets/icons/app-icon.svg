@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title">
+  <title id="title">ThLoop app icon</title>
+  <rect width="1024" height="1024" rx="220" fill="#0A0A0A"/>
+  <rect x="28" y="28" width="968" height="968" rx="196" fill="none" stroke="#2A2A2A" stroke-width="8"/>
+  <g transform="translate(92 275) scale(2)">
+    <rect x="194" y="66" width="32" height="64" rx="10" fill="#F0EDE6"/>
+    <path fill="#F0EDE6" fill-rule="evenodd" d="M96 28h62c29 0 52 23 52 52v37c0 29-23 52-52 52H96c-29 0-52-23-52-52V80c0-29 23-52 52-52Zm8 42c-16 0-27 11-27 27s11 30 27 30h46c16 0 27-14 27-30s-11-27-27-27z"/>
+    <path fill="#F0EDE6" fill-rule="evenodd" d="M262 28h62c29 0 52 23 52 52v37c0 29-23 52-52 52h-62c-29 0-52-23-52-52V80c0-29 23-52 52-52Zm8 42c-16 0-27 11-27 27s11 30 27 30h46c16 0 27-14 27-30s-11-27-27-27z"/>
+    <path fill="#F0EDE6" d="M24 145v27c0 40 29 65 72 65h232c44 0 68-25 68-65v-27h-43v23c0 18-10 27-28 27H97c-19 0-30-9-30-27v-23z"/>
+    <path fill="#C8B560" d="m57 146 15-15 14 16-15 15z"/>
+  </g>
+</svg>

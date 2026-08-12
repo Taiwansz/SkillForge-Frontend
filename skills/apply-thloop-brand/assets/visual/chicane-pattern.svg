@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title">
+  <title id="title">ThLoop Chicane repeating pattern</title>
+  <rect width="640" height="640" fill="#F0EDE6"/>
+  <defs>
+    <pattern id="p" width="160" height="160" patternUnits="userSpaceOnUse">
+      <path fill="none" stroke="#0A0A0A" stroke-width="28" stroke-linecap="round" d="M-20 42h74q26 0 40 25l12 22q14 25 40 25h34"/>
+      <path fill="#C8B560" d="m88 64 14-14 16 18-14 14z"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="640" fill="url(#p)"/>
+</svg>

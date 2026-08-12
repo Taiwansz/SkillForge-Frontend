@@ -1,0 +1,99 @@
+:root {
+  color-scheme: dark;
+
+  /* Canonical palette */
+  --tl-loop-black: #0a0a0a;
+  --tl-technical-paper: #f0ede6;
+  --tl-chicane-gold: #c8b560;
+  --tl-chassis: #2a2a2a;
+  --tl-smoked-mirror: #5c5c5c;
+
+  /* Semantic color layer */
+  --tl-bg: var(--tl-loop-black);
+  --tl-surface: var(--tl-chassis);
+  --tl-surface-raised: #333333;
+  --tl-text: var(--tl-technical-paper);
+  --tl-text-secondary: #aaa7a1;
+  --tl-text-muted: #9b9993;
+  --tl-border: var(--tl-smoked-mirror);
+  --tl-border-subtle: #353535;
+  --tl-accent: var(--tl-chicane-gold);
+  --tl-focus: var(--tl-technical-paper);
+
+  /* Optional status colors; never use without text/icon semantics */
+  --tl-success: #8fb879;
+  --tl-warning: #c8a45d;
+  --tl-error: #d88278;
+  --tl-info: #779db5;
+
+  /* Typography */
+  --tl-font-display: "Space Grotesk", Arial, sans-serif;
+  --tl-font-body: "Space Grotesk", Arial, sans-serif;
+  --tl-font-mono: "IBM Plex Mono", "JetBrains Mono", ui-monospace, monospace;
+  --tl-text-xs: 0.75rem;
+  --tl-text-sm: 0.875rem;
+  --tl-text-base: 1rem;
+  --tl-text-lg: 1.125rem;
+  --tl-text-xl: 1.25rem;
+  --tl-text-2xl: 1.5rem;
+  --tl-text-3xl: clamp(1.875rem, 3vw, 2.75rem);
+  --tl-text-display: clamp(2.75rem, 8vw, 7.5rem);
+
+  /* Spacing */
+  --tl-space-1: 0.25rem;
+  --tl-space-2: 0.5rem;
+  --tl-space-3: 0.75rem;
+  --tl-space-4: 1rem;
+  --tl-space-6: 1.5rem;
+  --tl-space-8: 2rem;
+  --tl-space-12: 3rem;
+  --tl-space-16: 4rem;
+  --tl-space-24: 6rem;
+
+  /* Shape and borders */
+  --tl-radius-sm: 0.25rem;
+  --tl-radius-md: 0.5rem;
+  --tl-radius-control: 0.5rem;
+  --tl-border-thin: 1px;
+  --tl-border-strong: 2px;
+
+  /* Motion */
+  --tl-duration-fast: 160ms;
+  --tl-duration-base: 260ms;
+  --tl-duration-slow: 360ms;
+  --tl-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-thloop-theme="paper"] {
+  color-scheme: light;
+  --tl-bg: var(--tl-technical-paper);
+  --tl-surface: #e3dfd6;
+  --tl-surface-raised: #faf8f3;
+  --tl-text: var(--tl-loop-black);
+  --tl-text-secondary: #494949;
+  --tl-text-muted: var(--tl-smoked-mirror);
+  --tl-border: #77736d;
+  --tl-border-subtle: #cec9bf;
+  --tl-focus: var(--tl-loop-black);
+}
+
+::selection {
+  background: var(--tl-accent);
+  color: var(--tl-loop-black);
+}
+
+:focus-visible {
+  outline: 2px solid var(--tl-focus);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
