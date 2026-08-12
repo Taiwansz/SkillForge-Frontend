@@ -29,11 +29,15 @@ Core attributes:
 
 The wordmark is one engineered process. The path enters at `T`, travels through `h` and `L`, iterates through both `o` chambers, then returns beneath the word and resolves at `p`. The diagonal gold notch identifies the exact handoff into iteration.
 
+The canonical master geometry was vectorized from the approved identity board. Treat `assets/logos/` as the only production source. Reference mockups and generated brand boards are contextual evidence, not alternative logo masters.
+
 Do not typeset the name as a substitute for the wordmark in brand-signature contexts. Plain text `ThLoop` is allowed in prose, breadcrumbs, metadata, and accessibility labels.
 
 ### Compact: Twin Chamber
 
 Twin Chamber extracts the two iteration chambers and their return path. It communicates “iterate twice, then return.” Use it only when a compact square-ish mark is required. Keep both internal counters fully open at small sizes.
+
+Treat `assets/marks/` as the only production source. Never reconstruct Twin Chamber from a screenshot or reuse a distorted version visible inside a mockup.
 
 ### Graphic language: Chicane Cut
 
@@ -90,4 +94,3 @@ Avoid literal cars, circuit boards, server racks, hackers, random code, glowing 
 - No rejected old compact emblem or Core Junction proposal.
 - No Chicane Cut used as the compact logo.
 - No logo distortion, recoloring outside approved variants, effects, outlines, or enclosing badges.
-

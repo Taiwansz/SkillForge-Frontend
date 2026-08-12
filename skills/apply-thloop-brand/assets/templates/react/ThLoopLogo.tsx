@@ -34,10 +34,10 @@ export function ThLoopLogo({
       className={className}
       decoding="async"
       fetchPriority={priority ? "high" : "auto"}
-      height={compact ? 260 : 260}
+      height={compact ? 132 : 186}
       src={src}
       style={{ display: "block", height: "auto", maxWidth: "100%", ...style }}
-      width={compact ? 420 : 1080}
+      width={compact ? 251 : 854}
     />
   );
 }

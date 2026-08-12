@@ -17,7 +17,7 @@ Apply ThLoop as a production design system, not as a dark theme. Preserve the hi
    - Print, apparel, events, mockups, or physical applications: read [references/applications.md](references/applications.md).
    - Final review or audit: read [references/accessibility-and-qa.md](references/accessibility-and-qa.md).
    - Image-generation prompts: read [references/prompt-recipes.md](references/prompt-recipes.md).
-4. Reuse canonical files from `assets/`; do not redraw the wordmark or compact mark.
+4. Reuse canonical files from `assets/logos/` and `assets/marks/`; do not redraw, trace from reference PNGs, regenerate, or crop the wordmark/compact mark from mockups.
 5. Implement with semantic tokens from `assets/tokens/`; do not scatter raw color values across components.
 6. Validate contrast, responsiveness, states, asset integrity, and brand hierarchy before delivery.
 7. Run `scripts/brand_audit.py <target>` on code projects and fix every error. Run `scripts/check_contrast.py` when adding a new foreground/background pairing.
