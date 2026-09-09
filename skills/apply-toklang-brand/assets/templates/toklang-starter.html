@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR" data-tok-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TokLang — menos tokens, mesma intenção</title>
+  <link rel="icon" href="../icons/favicon.svg" />
+  <link rel="stylesheet" href="../tokens/toklang.css" />
+  <style>
+    *{box-sizing:border-box} body{margin:0;background:var(--tok-canvas);color:var(--tok-copy);font-family:var(--tok-font-ui)}
+    .wrap{width:min(1180px,calc(100% - 40px));margin:auto}.nav{height:84px;display:flex;align-items:center;justify-content:space-between}.nav img{width:170px;height:auto}.nav a{color:var(--tok-ink);text-decoration:none;font-weight:750}
+    .hero{min-height:calc(100vh - 84px);display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:64px;position:relative}.eyebrow{color:var(--tok-yellow);font:700 13px/1 var(--tok-font-mono);letter-spacing:.14em;text-transform:uppercase}
+    h1{color:var(--tok-ink);font:900 clamp(58px,8vw,112px)/.84 var(--tok-font-display);letter-spacing:-.07em;margin:24px 0}h1 em{color:var(--tok-yellow);font-style:normal}.lead{font-size:20px;line-height:1.55;max-width:570px}
+    .actions{display:flex;gap:12px;margin-top:32px}.button{display:inline-flex;min-height:48px;align-items:center;padding:0 20px;border-radius:12px;text-decoration:none;font-weight:800}.primary{background:var(--tok-yellow);color:var(--tok-night)}.secondary{border:1px solid var(--tok-border);color:var(--tok-ink)}
+    .demo{background:var(--tok-panel);border:1px solid var(--tok-border);border-radius:28px;padding:26px;box-shadow:var(--tok-shadow);position:relative}.demo:before{content:"";position:absolute;width:56px;height:190px;border-radius:24px;background:var(--tok-yellow);left:-28px;top:calc(50% - 95px)}
+    .label{font:700 12px/1 var(--tok-font-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--tok-muted)}pre{white-space:pre-wrap;background:rgb(255 255 255 / 4%);border:1px solid var(--tok-border);border-radius:14px;padding:18px;color:var(--tok-ink);font:500 14px/1.6 var(--tok-font-mono)}
+    .saving{display:flex;justify-content:space-between;align-items:center;margin-top:18px}.saving strong{font:900 44px/1 var(--tok-font-display);color:var(--tok-yellow)}.curve{position:absolute;right:-240px;bottom:-300px;width:720px;opacity:.12;pointer-events:none}
+    @media(max-width:760px){.nav img{width:42px}.hero{grid-template-columns:1fr;gap:36px;padding:70px 0}.demo:before{width:100px;height:24px;left:calc(50% - 50px);top:-12px}.curve{display:none}}
+  </style>
+</head>
+<body>
+  <header class="nav wrap"><img src="../logos/toklang-extended-dark.svg" alt="TokLang" /><a class="tok-focus" href="#demo">Testar compressão</a></header>
+  <main class="hero wrap">
+    <section><div class="eyebrow">Compact language layer</div><h1>Menos tokens.<br><em>Mesma intenção.</em></h1><p class="lead">Uma camada reversível para mapear linguagem repetitiva, reduzir contexto e tornar fluxos com LLM mais eficientes.</p><div class="actions"><a class="button primary tok-focus" href="#demo">Comprimir texto</a><a class="button secondary tok-focus" href="#docs">Ver documentação</a></div></section>
+    <section class="demo" id="demo" aria-label="Exemplo ilustrativo de compressão"><span class="label">Entrada</span><pre>Quando o usuário solicitar um resumo, preserve os pontos essenciais e responda em português.</pre><span class="label">Saída TokLang</span><pre>@sum{keep:essential,lang:pt-BR}</pre><div class="saving"><span>Economia ilustrativa</span><strong>−68%</strong></div></section>
+    <img class="curve" src="../visual/hero-compression.svg" alt="" />
+  </main>
+</body>
+</html>

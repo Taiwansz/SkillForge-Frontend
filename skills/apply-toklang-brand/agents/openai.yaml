@@ -1,0 +1,14 @@
+interface:
+  display_name: TokLang Brand System
+  short_description: Aplique a identidade Industrial Pop do TokLang
+  icon_small: assets/icons/favicon.svg
+  icon_large: assets/icons/app-icon.svg
+  brand_color: '#4A1824'
+  default_prompt: Use $apply-toklang-brand para criar este material seguindo integralmente a identidade visual TokLang, seus assets canônicos e sua linguagem de compressão curvilínea.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

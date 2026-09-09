@@ -1,0 +1,25 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "color": {
+    "silver": { "$value": "#D9DADC", "$type": "color" },
+    "wine": { "$value": "#4A1824", "$type": "color" },
+    "yellow": { "$value": "#FFD324", "$type": "color" },
+    "paper": { "$value": "#F7F7F4", "$type": "color" },
+    "night": { "$value": "#130B10", "$type": "color" },
+    "surface": { "$value": "#211219", "$type": "color" },
+    "raised": { "$value": "#2B1820", "$type": "color" },
+    "signalWine": { "$value": "#6B2030", "$type": "color" },
+    "textLight": { "$value": "#ECEDEF", "$type": "color" },
+    "muted": { "$value": "#AEB2B8", "$type": "color" }
+  },
+  "radius": {
+    "small": { "$value": "10px", "$type": "dimension" },
+    "medium": { "$value": "18px", "$type": "dimension" },
+    "large": { "$value": "28px", "$type": "dimension" }
+  },
+  "font": {
+    "display": { "$value": "Arial Black, Helvetica Neue, Arial, sans-serif", "$type": "fontFamily" },
+    "ui": { "$value": "Inter, IBM Plex Sans, system-ui, sans-serif", "$type": "fontFamily" },
+    "mono": { "$value": "IBM Plex Mono, JetBrains Mono, ui-monospace, monospace", "$type": "fontFamily" }
+  }
+}
