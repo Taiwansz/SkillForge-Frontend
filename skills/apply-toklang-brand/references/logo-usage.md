@@ -2,6 +2,8 @@
 
 ## Official signatures
 
+All production SVG signatures are path-only assets extracted from the approved Industrial Pop raster masters. They contain no font-dependent logo lettering. `scripts/rebuild_canonical_logos.py` is the only supported regeneration path.
+
 ### Stacked logo
 
 Use for hero sections, covers, posters, social cards, and square editorial compositions. It is the expressive primary signature.
@@ -56,6 +58,7 @@ Let **S** equal the width of the yellow compression spine in the displayed asset
 - no changing letter proportions;
 - no placing copy inside the icon's negative space;
 - no decorative pattern touching the logo clear-space zone.
+- no typed reconstruction, automatic font substitution, or manually invented TK silhouette.
 
 ## Partner lockups
 

@@ -15,11 +15,16 @@ REQUIRED = [
     "assets/logos/toklang-extended-light.svg", "assets/logos/toklang-extended-dark.svg",
     "assets/png/toklang-stacked-industrial.png", "assets/png/toklang-extended-industrial.png",
     "assets/png/toklang-flow-industrial.png", "assets/tokens/toklang.css",
-    "assets/png/png-manifest.json", "scripts/export_pngs.py",
+    "assets/png/png-manifest.json", "scripts/export_pngs.py", "scripts/rebuild_canonical_logos.py",
     "assets/micro/divider-compression.svg", "assets/micro/bullet-token.svg",
     "assets/micro/cursor-flow.svg", "assets/micro/badge-savings.svg",
     "assets/micro/underline-flow.svg", "assets/micro/progress-compression.svg",
     "assets/micro/corner-focus.svg", "assets/micro/token-chip.svg",
+    "assets/micro/section-divider.svg", "assets/micro/rule.svg",
+    "assets/micro/pagination.svg", "assets/micro/corner-bracket.svg",
+    "assets/visual/corner-ribbon-top-right.svg", "assets/visual/corner-ribbon-bottom-left.svg",
+    "assets/visual/token-bloom-trident.svg", "assets/visual/token-bloom-pinwheel.svg",
+    "assets/visual/token-bloom-butterfly.svg", "assets/visual/token-bloom-orbit.svg",
     "references/brand-foundations.md", "references/logo-usage.md",
     "references/patterns-and-illustration.md", "references/accessibility-and-qa.md",
 ]
@@ -61,13 +66,13 @@ def main() -> int:
     png_manifest_path = ROOT / "assets/png/png-manifest.json"
     if png_manifest_path.is_file():
         png_manifest = json.loads(png_manifest_path.read_text(encoding="utf-8"))
-        if png_manifest.get("count", 0) < 57:
-            errors.append("PNG manifest must contain all 57 deterministic exports")
+        if png_manifest.get("count", 0) < 77:
+            errors.append("PNG manifest must contain all 77 deterministic exports")
         for item in png_manifest.get("assets", []):
             if not (ROOT / item["path"]).is_file():
                 errors.append(f"PNG manifest target missing: {item['path']}")
-    if len(png_paths) < 60:
-        errors.append(f"complete PNG library expected at least 60 files, found {len(png_paths)}")
+    if len(png_paths) < 80:
+        errors.append(f"complete PNG library expected at least 80 files, found {len(png_paths)}")
 
     manifest_path = ROOT / "assets/asset-manifest.json"
     if manifest_path.is_file():

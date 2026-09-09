@@ -16,31 +16,31 @@ A broad cropped wine curve with a yellow gate. Use at page corners, section tran
 
 File: `assets/visual/compression-stream.svg`
 
-Multiple input lines converge into a narrow channel and exit as one stream. Use beside product explanations, architecture sections, and token-saving claims.
+Multiple rounded input streams converge into a narrow channel and exit as three compact tokens. Use beside product explanations, architecture sections, and token-saving claims.
 
 ### Token Blooms
 
 File: `assets/visual/token-blooms.svg`
 
-Circular token clusters connected by precise lines. Use for quieter backgrounds, documentation covers, and feature cards. Keep opacity low behind copy.
+Four approved petal-based token symbols: Trident, Pinwheel, Butterfly, and Orbit. The combined sheet is `token-blooms.svg`; every bloom also has an individual SVG and PNG. Use for section headings, cards, and quieter backgrounds.
 
 ### Contour Field
 
 File: `assets/visual/contour-field.svg`
 
-Curved topographic lines suggest semantic neighborhoods. Use in large empty fields and section backgrounds. Do not treat it as a full-page wallpaper.
+Mirrored contour lines converge around a yellow compression gate. Use in large empty fields and section backgrounds. Do not treat it as a full-page wallpaper.
 
 ### Modular Pattern
 
 File: `assets/visual/modular-pattern.svg`
 
-Repeatable modules derived from the compact mark. Use on packaging, swag, banners, or contained UI empty states. Never repeat at a scale where the TK gesture becomes illegible.
+Repeatable rounded modules and yellow gates derived from the approved pattern board. Use on packaging, swag, banners, or contained UI empty states.
 
 ### Data Fall
 
 File: `assets/visual/data-fall.svg`
 
-Vertical token traces compress through a yellow bar. Use in metrics and technical storytelling.
+Vertical segmented streams with intermittent yellow mapped tokens. Use in page margins, metrics, and technical storytelling.
 
 ### Hero Compression
 
@@ -54,14 +54,17 @@ Each microasset has an editable SVG master in `assets/micro/` and ready-to-use P
 
 | Asset | Purpose |
 |---|---|
-| `divider-compression` | separate sections while retaining the yellow gate |
-| `bullet-token` | branded list bullet, status node, or small avatar detail |
-| `cursor-flow` | tutorial pointer and interaction illustration |
-| `badge-savings` | highlight a measured or explicitly illustrative saving |
-| `underline-flow` | emphasize a short headline fragment |
-| `progress-compression` | progress, mapping, and reduction states |
-| `corner-focus` | frame screenshots, inputs, or highlighted areas |
-| `token-chip` | show TokLang syntax and mapped units |
+| `section-divider` / `divider-compression` | vertical yellow section marker and compatibility alias |
+| `rule` | quiet wine horizontal rule |
+| `pagination` | three-dot pagination motif |
+| `bullet-token` | yellow list bullet or status node |
+| `cursor-flow` | wine tutorial pointer |
+| `badge-savings` | wine pill with yellow signal dash |
+| `corner-bracket` | wine framing corner |
+| `underline-flow` | yellow headline emphasis |
+| `progress-compression` | shrinking wine progress segments |
+| `corner-focus` | yellow focus corner |
+| `token-chip` | compact syntax example |
 
 Do not use these as substitutes for common interface icons such as search, close, menu, or accessibility controls.
 
