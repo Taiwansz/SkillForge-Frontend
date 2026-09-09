@@ -1,0 +1,13 @@
+@import "../../tokens/toklang.css";
+
+.tok-shell { min-height: 100dvh; background: var(--tok-canvas); color: var(--tok-copy); font-family: var(--tok-font-ui); }
+.tok-shell__inner { width: min(1200px, calc(100% - 40px)); margin-inline: auto; }
+.tok-hero { min-height: 78dvh; display: grid; grid-template-columns: 1.05fr .95fr; align-items: center; gap: 64px; position: relative; overflow: hidden; }
+.tok-hero h1 { color: var(--tok-ink); font: 900 clamp(3.4rem, 8vw, 7.5rem)/.86 var(--tok-font-display); letter-spacing: -.065em; margin: 0; }
+.tok-hero mark { background: var(--tok-yellow); color: var(--tok-night); padding-inline: .08em; }
+.tok-demo { padding: 24px; background: var(--tok-panel); border: 1px solid var(--tok-border); border-radius: var(--tok-radius-lg); box-shadow: var(--tok-shadow); }
+.tok-metric { display: grid; grid-template-columns: auto 1fr auto auto; align-items: center; gap: 12px; font-family: var(--tok-font-mono); }
+.tok-metric i { height: 6px; border-radius: 6px; background: linear-gradient(90deg, var(--tok-wine) var(--tok-saving), var(--tok-muted) 0); }
+.tok-metric b { background: var(--tok-yellow); color: var(--tok-night); border-radius: 8px; padding: 6px 8px; }
+@media (max-width: 760px) { .tok-hero { grid-template-columns: 1fr; gap: 32px; padding-block: 80px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; } }

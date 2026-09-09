@@ -1,0 +1,25 @@
+{
+  "skill": "apply-toklang-brand",
+  "evals": [
+    {
+      "id": "landing-dark",
+      "prompt": "Create a dark landing-page direction for TokLang that explains token compression and includes a live before/after demo.",
+      "expectations": ["Uses Night Wine rather than generic black", "Uses canonical signature assets", "Yellow marks compression or action", "Includes credible before/after evidence", "Avoids generic AI imagery"]
+    },
+    {
+      "id": "tcc-diagram",
+      "prompt": "Create a diagram for a TCC chapter explaining TokLang input, mapping, compression, and reversible output.",
+      "expectations": ["Academic clarity is preserved", "Transformation points use Safety Yellow", "Meaning does not depend on color alone", "Claims distinguish measured and illustrative values"]
+    },
+    {
+      "id": "compact-icon",
+      "prompt": "Prepare a 32px product icon and a favicon for TokLang.",
+      "expectations": ["Uses supplied compact flow mark", "Does not type TK in a font", "Remains legible at 16px", "Preserves yellow spine"]
+    },
+    {
+      "id": "decorative-pattern",
+      "prompt": "Add subtle decoration to a TokLang documentation page without harming readability.",
+      "expectations": ["Uses one canonical pattern family", "Keeps decoration out of copy area", "Uses ambient opacity", "Does not introduce circuits or random blobs"]
+    }
+  ]
+}

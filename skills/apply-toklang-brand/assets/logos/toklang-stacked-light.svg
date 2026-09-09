@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+  <title id="title">TokLang stacked logo</title>
+  <desc id="desc">Tok over Lang in deep wine with a safety-yellow compression spine.</desc>
+  <g fill="#4A1824" font-family="Arial Black, Arial, sans-serif" font-weight="900" letter-spacing="-30">
+    <text x="30" y="265" font-size="285">Tok</text>
+    <text x="26" y="505" font-size="270">Lang</text>
+  </g>
+  <rect x="401" y="45" width="68" height="244" rx="7" fill="#FFD324"/>
+  <rect x="401" y="470" width="68" height="26" rx="7" fill="#FFD324"/>
+</svg>

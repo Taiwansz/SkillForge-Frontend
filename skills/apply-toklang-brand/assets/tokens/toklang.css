@@ -1,0 +1,50 @@
+:root {
+  --tok-silver: #d9dadc;
+  --tok-wine: #4a1824;
+  --tok-yellow: #ffd324;
+  --tok-paper: #f7f7f4;
+  --tok-night: #130b10;
+  --tok-surface: #211219;
+  --tok-raised: #2b1820;
+  --tok-signal-wine: #6b2030;
+  --tok-text-dark: #24171c;
+  --tok-text-light: #ecedef;
+  --tok-muted: #aeb2b8;
+  --tok-success: #2d7a58;
+  --tok-warning: #9a6500;
+  --tok-danger: #b53b36;
+  --tok-info: #335c81;
+  --tok-font-display: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  --tok-font-ui: Inter, "IBM Plex Sans", system-ui, sans-serif;
+  --tok-font-mono: "IBM Plex Mono", "JetBrains Mono", ui-monospace, monospace;
+  --tok-radius-sm: 10px;
+  --tok-radius-md: 18px;
+  --tok-radius-lg: 28px;
+  --tok-shadow: 0 18px 55px rgb(74 24 36 / 14%);
+  --tok-focus: 0 0 0 2px var(--tok-paper), 0 0 0 5px var(--tok-yellow);
+}
+
+[data-tok-theme="light"] {
+  color-scheme: light;
+  --tok-canvas: var(--tok-silver);
+  --tok-panel: var(--tok-paper);
+  --tok-ink: var(--tok-wine);
+  --tok-copy: var(--tok-text-dark);
+  --tok-border: rgb(74 24 36 / 20%);
+}
+
+[data-tok-theme="dark"] {
+  color-scheme: dark;
+  --tok-canvas: var(--tok-night);
+  --tok-panel: var(--tok-surface);
+  --tok-ink: var(--tok-text-light);
+  --tok-copy: var(--tok-muted);
+  --tok-border: rgb(236 237 239 / 16%);
+  --tok-shadow: 0 22px 64px rgb(0 0 0 / 35%);
+  --tok-focus: 0 0 0 2px var(--tok-night), 0 0 0 5px var(--tok-yellow);
+}
+
+.tok-focus:focus-visible { outline: none; box-shadow: var(--tok-focus); }
+.tok-display { font-family: var(--tok-font-display); letter-spacing: -0.055em; line-height: .9; }
+.tok-mono { font-family: var(--tok-font-mono); }
+.tok-panel { background: var(--tok-panel); border: 1px solid var(--tok-border); border-radius: var(--tok-radius-md); box-shadow: var(--tok-shadow); }
