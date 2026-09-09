@@ -15,6 +15,11 @@ REQUIRED = [
     "assets/logos/toklang-extended-light.svg", "assets/logos/toklang-extended-dark.svg",
     "assets/png/toklang-stacked-industrial.png", "assets/png/toklang-extended-industrial.png",
     "assets/png/toklang-flow-industrial.png", "assets/tokens/toklang.css",
+    "assets/png/png-manifest.json", "scripts/export_pngs.py",
+    "assets/micro/divider-compression.svg", "assets/micro/bullet-token.svg",
+    "assets/micro/cursor-flow.svg", "assets/micro/badge-savings.svg",
+    "assets/micro/underline-flow.svg", "assets/micro/progress-compression.svg",
+    "assets/micro/corner-focus.svg", "assets/micro/token-chip.svg",
     "references/brand-foundations.md", "references/logo-usage.md",
     "references/patterns-and-illustration.md", "references/accessibility-and-qa.md",
 ]
@@ -42,13 +47,27 @@ def main() -> int:
         except ElementTree.ParseError as exc:
             errors.append(f"invalid SVG {path.relative_to(ROOT)}: {exc}")
 
-    for path in (ROOT / "assets/png").glob("*.png"):
+    png_paths = list((ROOT / "assets/png").rglob("*.png"))
+    for path in png_paths:
         try:
             width, height = png_size(path)
-            if min(width, height) < 128:
+            relative_parts = path.relative_to(ROOT / "assets/png").parts
+            minimum = 16 if relative_parts[0] in {"icons", "micro"} else 128
+            if min(width, height) < minimum:
                 errors.append(f"raster too small: {path.relative_to(ROOT)} ({width}x{height})")
         except ValueError as exc:
             errors.append(f"{path.relative_to(ROOT)}: {exc}")
+
+    png_manifest_path = ROOT / "assets/png/png-manifest.json"
+    if png_manifest_path.is_file():
+        png_manifest = json.loads(png_manifest_path.read_text(encoding="utf-8"))
+        if png_manifest.get("count", 0) < 57:
+            errors.append("PNG manifest must contain all 57 deterministic exports")
+        for item in png_manifest.get("assets", []):
+            if not (ROOT / item["path"]).is_file():
+                errors.append(f"PNG manifest target missing: {item['path']}")
+    if len(png_paths) < 60:
+        errors.append(f"complete PNG library expected at least 60 files, found {len(png_paths)}")
 
     manifest_path = ROOT / "assets/asset-manifest.json"
     if manifest_path.is_file():

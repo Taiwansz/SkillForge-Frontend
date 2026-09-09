@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 112" fill="none">
+  <rect x="4" y="4" width="352" height="104" rx="28" fill="#F7F7F4" stroke="#4A1824" stroke-width="8"/>
+  <rect x="24" y="24" width="18" height="64" rx="8" fill="#FFD324"/>
+  <text x="68" y="70" fill="#4A1824" font-family="IBM Plex Mono, monospace" font-size="34" font-weight="700">@sum{pt}</text>
+</svg>

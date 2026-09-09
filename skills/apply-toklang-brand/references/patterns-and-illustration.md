@@ -48,6 +48,27 @@ File: `assets/visual/hero-compression.svg`
 
 The largest explanatory illustration. Use once per page, normally in the hero or core product section.
 
+## Microassets
+
+Each microasset has an editable SVG master in `assets/micro/` and ready-to-use PNG exports in `assets/png/micro/`.
+
+| Asset | Purpose |
+|---|---|
+| `divider-compression` | separate sections while retaining the yellow gate |
+| `bullet-token` | branded list bullet, status node, or small avatar detail |
+| `cursor-flow` | tutorial pointer and interaction illustration |
+| `badge-savings` | highlight a measured or explicitly illustrative saving |
+| `underline-flow` | emphasize a short headline fragment |
+| `progress-compression` | progress, mapping, and reduction states |
+| `corner-focus` | frame screenshots, inputs, or highlighted areas |
+| `token-chip` | show TokLang syntax and mapped units |
+
+Do not use these as substitutes for common interface icons such as search, close, menu, or accessibility controls.
+
+## PNG availability
+
+Every canonical logo, mark, icon, pattern, illustration, microasset, and reference board has a PNG counterpart. Use `assets/png/png-manifest.json` to select an exact size. Prefer the smallest export that is at least as large as its rendered CSS width on a 2× display.
+
 ## Density levels
 
 - **Ambient:** 4–8% opacity, behind empty areas only.

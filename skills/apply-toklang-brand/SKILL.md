@@ -43,6 +43,9 @@ Use these traits together:
 - Favicon: `assets/icons/favicon.svg`
 - Product icon: `assets/icons/app-icon.svg`
 - Decorative system: `assets/visual/`
+- Individual microassets: `assets/micro/`
+- Complete ready-to-use PNG library: `assets/png/`
+- PNG dimensions and integrity catalog: `assets/png/png-manifest.json`
 - Reference boards: `assets/reference/`
 
 The approved PNG signatures are the exact visual masters selected during identity development. The supplied SVG signatures are deterministic UI-ready constructions. Preserve their proportions and never replace them with typed text.
@@ -68,6 +71,7 @@ The approved PNG signatures are the exact visual masters selected during identit
 - At least one visual communicates compression, mapping, or reversible flow when conceptually relevant.
 - Mobile, reduced-motion, and keyboard-focus states are covered for interactive work.
 - Run `python scripts/validate_assets.py`.
+- Run `python scripts/export_pngs.py` after editing any SVG master.
 - Run `python scripts/check_contrast.py` for new color combinations.
 - Run `python scripts/brand_audit.py <target>` for web or document source files.
 

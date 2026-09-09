@@ -1,0 +1,576 @@
+{
+  "brand": "TokLang",
+  "count": 57,
+  "assets": [
+    {
+      "path": "assets/png/logos/toklang-stacked-light-720.png",
+      "bytes": 22939,
+      "sha256": "79996a46a3896267b02dd69cc63b2a5b3a61d7320acdfcaaeb255424cbfb0e1c",
+      "dimensions": [
+        720,
+        560
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/logos/toklang-stacked-light-1440.png",
+      "bytes": 49129,
+      "sha256": "180e35eb2d642c86bca291fe0e59b97a03d1aa0b5b03e45e30d2a0c35efd04d2",
+      "dimensions": [
+        1440,
+        1120
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/logos/toklang-stacked-dark-720.png",
+      "bytes": 22450,
+      "sha256": "34a890177c2bcb694cb61592a9d9ea0db73c05dc9e467154810ae08626f8468c",
+      "dimensions": [
+        720,
+        560
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/logos/toklang-stacked-dark-1440.png",
+      "bytes": 47904,
+      "sha256": "c73f5ce866800abe9960702d37a3ecfc1754a3cded5d278cf57370a8000ae6bf",
+      "dimensions": [
+        1440,
+        1120
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/logos/toklang-extended-light-1320.png",
+      "bytes": 22035,
+      "sha256": "c7ce5c850f0bd0c0688e42c9139fb47d4cbaa88ebc1580373d9ac205cf5f4edd",
+      "dimensions": [
+        1320,
+        300
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/logos/toklang-extended-light-2640.png",
+      "bytes": 47203,
+      "sha256": "e8276efcb53f85bab3a213f9f8bf58630fa2ef61d98524d677d6dc11ce49f87b",
+      "dimensions": [
+        2640,
+        600
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/logos/toklang-extended-dark-1320.png",
+      "bytes": 21304,
+      "sha256": "1e3196cdb72d353e1e5c1b3b1882909eb8b71eb51f8f2b79019cf0ff380f3a58",
+      "dimensions": [
+        1320,
+        300
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/logos/toklang-extended-dark-2640.png",
+      "bytes": 45533,
+      "sha256": "98be9fd550ab00ffdf371cde6b6b40494a7b370063d688fee39ef273bc384279",
+      "dimensions": [
+        2640,
+        600
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/marks/toklang-flow-light-256.png",
+      "bytes": 6774,
+      "sha256": "630567f213311a37fe878318e838b14b2d52fc3572c13a4ba1321821cae854d4",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/marks/toklang-flow-light-512.png",
+      "bytes": 14071,
+      "sha256": "2ad1ba432c77fa3102cfffe4bcd6bb27d2f95d9afa8a2b285150abe8c8518cae",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/marks/toklang-flow-light-1024.png",
+      "bytes": 30667,
+      "sha256": "ccbeb7af5e7b82adf32b57dd8a78f252d38d8b09c7b75e4a03f44a1e2ce204ec",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/marks/toklang-flow-dark-256.png",
+      "bytes": 6607,
+      "sha256": "757e83ef3d635fd6293d3443c95299dd51cffe14ab9e3b229803141149432082",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/marks/toklang-flow-dark-512.png",
+      "bytes": 13732,
+      "sha256": "f56a605e80097957987cae823e811889d4345baca868969e069397c891ccd61f",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/marks/toklang-flow-dark-1024.png",
+      "bytes": 30107,
+      "sha256": "cce933b9a6c2a8ec7dcdc9a12cb52cb1baee4c732c4e3c388ccaf42c60463b0c",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/icons/favicon-16.png",
+      "bytes": 626,
+      "sha256": "1d4984cc570c9e2aa420822fde35f6ea04f1a418cc722228714f4bad4bec7eed",
+      "dimensions": [
+        16,
+        16
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/icons/favicon-32.png",
+      "bytes": 1132,
+      "sha256": "303f291529ec93cb1cfac97247cdc6523417f5debcbc70bf8e2ca8694578dccb",
+      "dimensions": [
+        32,
+        32
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/icons/favicon-64.png",
+      "bytes": 2229,
+      "sha256": "40f2fe90c0855fc4e51cfb9a983bd034c6683ce97c8b23c6b1513db23e1bc3aa",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/icons/apple-touch-icon-180.png",
+      "bytes": 6001,
+      "sha256": "c8ec8778998c125b7e7001aac0575b347a79595d58a5d123406f17e739a5dbbb",
+      "dimensions": [
+        180,
+        180
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/icons/app-icon-512.png",
+      "bytes": 18162,
+      "sha256": "587ce72f86f599e40f75eed5637c2d5249c218092de0e6f93b38ea50930d4c62",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/icons/app-icon-1024.png",
+      "bytes": 38996,
+      "sha256": "45427b5ae37b5d0142d17046e848a7bd1fb9f8618b7da2afc6d72e1e38fb9782",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/patterns/corner-ribbon-800.png",
+      "bytes": 16736,
+      "sha256": "aba33a61aa47b1163a0991ea50c9e668d076127a7d72440b86e50dbe19ff7d22",
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/patterns/corner-ribbon-1600.png",
+      "bytes": 39893,
+      "sha256": "2bc972698600e494e0d750ca1455e7dfff8c67ae9eee9350a2a3a2ddde9a5b86",
+      "dimensions": [
+        1600,
+        1600
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/patterns/compression-stream-1200.png",
+      "bytes": 33633,
+      "sha256": "10b58b1b620d6c97e7e83f2e7f84134f53a30ba995e37addc704cfee853aeabf",
+      "dimensions": [
+        1200,
+        520
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/patterns/compression-stream-2400.png",
+      "bytes": 73821,
+      "sha256": "d1350f6d4572b921ee883fefc5ff58af8ab0b865db25758cfcf2d111cff0cf09",
+      "dimensions": [
+        2400,
+        1040
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/patterns/token-blooms-800.png",
+      "bytes": 48924,
+      "sha256": "5497d42ed385050b4019e74311ad9b4b6054e3962480815b349effd63c6ee169",
+      "dimensions": [
+        800,
+        800
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/patterns/token-blooms-1600.png",
+      "bytes": 106428,
+      "sha256": "e0bf95f04c6e7190270cd1ca01253e13c2876fc39cd20d8a4a88c8d25e20afed",
+      "dimensions": [
+        1600,
+        1600
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/patterns/contour-field-1200.png",
+      "bytes": 92677,
+      "sha256": "435eccd9edcb6f30f296f852e434db539b46762de54f4935ac3fa47730f9c100",
+      "dimensions": [
+        1200,
+        720
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/patterns/contour-field-2400.png",
+      "bytes": 201041,
+      "sha256": "70c89198de38ea877263fa7c0e35dbbf39a82e7f83c3a5bba4ffc8d89ff2c07e",
+      "dimensions": [
+        2400,
+        1440
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/patterns/modular-pattern-640.png",
+      "bytes": 25948,
+      "sha256": "28ca40386d94204fc2ad35352867d86a2fd8f1fdc99d3f83bd58a17b672a0241",
+      "dimensions": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/patterns/modular-pattern-1280.png",
+      "bytes": 62001,
+      "sha256": "81e4f1cf6473de569853c760355fe9630a31a2971316358d039f37e3dc9794a1",
+      "dimensions": [
+        1280,
+        1280
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/illustrations/data-fall-900.png",
+      "bytes": 19733,
+      "sha256": "e7db7ebeb10c396678fe1332e9522ddd1703e51da54890d3f76054a432589f42",
+      "dimensions": [
+        900,
+        760
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/illustrations/data-fall-1800.png",
+      "bytes": 44658,
+      "sha256": "3c1f0189b02e0c096b569df51c40a049ca119d0e1485c9d2a6079ec78403aa6b",
+      "dimensions": [
+        1800,
+        1520
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/illustrations/hero-compression-1280.png",
+      "bytes": 41276,
+      "sha256": "ac0f7fb9120c3f5b7c19f75f832ae58184dcd9d13e755125f6cab7eab3b71a86",
+      "dimensions": [
+        1280,
+        900
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/illustrations/hero-compression-2560.png",
+      "bytes": 92760,
+      "sha256": "851a8bf52ef0748ad4f5874c0ef3eab4fdd3faf7893949556ab5e71be7c26426",
+      "dimensions": [
+        2560,
+        1800
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/divider-compression-640.png",
+      "bytes": 1415,
+      "sha256": "71c9e52f495056304c78c17ada64abdbb2cd7451090e1588f1844e759aca5094",
+      "dimensions": [
+        640,
+        80
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/divider-compression-1280.png",
+      "bytes": 3153,
+      "sha256": "d4309dfe43fb63856adaf286b014d457ce57da9963fe82983aa0c0a14e85f1ac",
+      "dimensions": [
+        1280,
+        160
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/bullet-token-48.png",
+      "bytes": 1546,
+      "sha256": "0fdec5936b64cb7fe592e55cfe19c4e7bc65f91d5d61da3324ada80c60bc9066",
+      "dimensions": [
+        48,
+        48
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/bullet-token-96.png",
+      "bytes": 3151,
+      "sha256": "6ea315de30e20fc96685fffb16b4a6b4f441d0a0decbc5618f0ab3dc5ad3d68a",
+      "dimensions": [
+        96,
+        96
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/bullet-token-192.png",
+      "bytes": 6369,
+      "sha256": "496a3d682a5d1db92e1bb75bdda4aba19825e526af5097ffdcab1cc1d1a7827a",
+      "dimensions": [
+        192,
+        192
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/cursor-flow-64.png",
+      "bytes": 2963,
+      "sha256": "0285554d7c819c2f6ee32a85d918f74b5dc8765d529942d383c56065d44fb05e",
+      "dimensions": [
+        64,
+        80
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/cursor-flow-128.png",
+      "bytes": 5822,
+      "sha256": "74a059e365de3fe39f4401f6d0dccb751bb2a594a004a3b6d0d6b725f96495c2",
+      "dimensions": [
+        128,
+        160
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/cursor-flow-256.png",
+      "bytes": 11754,
+      "sha256": "6b862e44b2ac41719854a9d2ac5b3c7dc7deeb791cdb0f27bd4905ff5e51207d",
+      "dimensions": [
+        256,
+        320
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/badge-savings-360.png",
+      "bytes": 9932,
+      "sha256": "cc2ce47a8338596ccc2375913f09a816cf969fa8afb5d6f3f332434e49fcf9f8",
+      "dimensions": [
+        360,
+        136
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/badge-savings-720.png",
+      "bytes": 20362,
+      "sha256": "368215394d00b3115b5dc86cee5c9eac6debf5fe31e5010360e28c06aaac9d88",
+      "dimensions": [
+        720,
+        272
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/underline-flow-720.png",
+      "bytes": 5926,
+      "sha256": "03702abd4f4cb20b5327070fdb9a7e8c6741c7b50ea86df129c6c5fe6cbf354c",
+      "dimensions": [
+        720,
+        96
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/underline-flow-1440.png",
+      "bytes": 13006,
+      "sha256": "ac79dc388d2f2705a0244fd6330e40d7263535656ab171b8795a33ff0f48ca5a",
+      "dimensions": [
+        1440,
+        192
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/progress-compression-720.png",
+      "bytes": 3286,
+      "sha256": "55b8fae14d7945cb752d7a4d1525fe1c8a83dddbd0384f07eec6e83660f35179",
+      "dimensions": [
+        720,
+        112
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/progress-compression-1440.png",
+      "bytes": 7397,
+      "sha256": "efb8644cd816ac1188905b8fe83b2ef42414c82dc242be9bfc4bda06f8b79a22",
+      "dimensions": [
+        1440,
+        224
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/corner-focus-160.png",
+      "bytes": 2443,
+      "sha256": "3a293807fa15c1fe768eea81fbb604dc0184c1b6a64e98fb75f74f7cb164b283",
+      "dimensions": [
+        160,
+        160
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/corner-focus-320.png",
+      "bytes": 4955,
+      "sha256": "aa6ccd6c27235f58d292934450135c9c8c089b6a0d5d32b12dd2779c0b8cc63f",
+      "dimensions": [
+        320,
+        320
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/corner-focus-640.png",
+      "bytes": 11147,
+      "sha256": "f1394ba4a9271827a6fdc784c8bacfe41676f5ab240f02ce365ca3c92bc256be",
+      "dimensions": [
+        640,
+        640
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/token-chip-360.png",
+      "bytes": 7621,
+      "sha256": "91835c4a5ac3f7d4537c7e20c48c958f626af1ba7c71b29a35ce5c1eb931ad3a",
+      "dimensions": [
+        360,
+        112
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/micro/token-chip-720.png",
+      "bytes": 15507,
+      "sha256": "11890fe30c672360b9da7cd2b800b3a54a33c1322a043b624f0135f872b2e53f",
+      "dimensions": [
+        720,
+        224
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "path": "assets/png/reference/decorative-system.png",
+      "bytes": 499478,
+      "sha256": "1f4854a1681140f2078224ab48f84592a845cfa48deaea4ec3b171f95a7aab5d",
+      "dimensions": [
+        1600,
+        1067
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "assets/png/reference/industrial-pop-applications.png",
+      "bytes": 552332,
+      "sha256": "e698cbe1a1bd9383810984af12b8ecfddc9c05b5313e385ac368f11c2c9bb835",
+      "dimensions": [
+        1600,
+        1067
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "assets/png/reference/landing-light.png",
+      "bytes": 534435,
+      "sha256": "77c0785473f5efa6b91a3372673351bc3135d3fba0abb67c84cc91719827ff8f",
+      "dimensions": [
+        960,
+        2091
+      ],
+      "mode": "P"
+    },
+    {
+      "path": "assets/png/reference/landing-dark.png",
+      "bytes": 519703,
+      "sha256": "ee32891a6b971bf556a7bf922372d988bfb23d70a0e4ad8ed12fa0350c5ab463",
+      "dimensions": [
+        960,
+        2091
+      ],
+      "mode": "P"
+    }
+  ]
+}
