@@ -1,0 +1,14 @@
+interface:
+  display_name: THP / ThPay Brand System
+  short_description: Crie produtos de folha mais humanos e fiéis à marca THP
+  icon_small: assets/icons/favicon.svg
+  icon_large: assets/icons/app-icon.svg
+  brand_color: '#2F66F3'
+  default_prompt: Use $apply-thpay-brand para criar esta interface seguindo integralmente a identidade visual THP / ThPay, com experiência clara, friendly e profissional.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

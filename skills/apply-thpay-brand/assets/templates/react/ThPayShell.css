@@ -1,0 +1,43 @@
+@import '../tokens/thpay.css';
+
+.thp-shell {
+  min-height: 100dvh;
+  background: var(--thp-bg);
+  color: var(--thp-text);
+  font-family: var(--thp-font-sans);
+}
+
+.thp-shell__nav {
+  background: var(--thp-ink-navy);
+  color: #fff;
+}
+
+.thp-shell__main {
+  width: min(100%, 1600px);
+  margin: 0 auto;
+  padding: clamp(16px, 3vw, 40px);
+}
+
+.thp-surface {
+  background: var(--thp-surface);
+  border: 1px solid var(--thp-border);
+  border-radius: var(--thp-radius-lg);
+}
+
+.thp-button-primary {
+  min-height: 44px;
+  border: 0;
+  border-radius: var(--thp-radius-md);
+  background: var(--thp-action);
+  color: var(--thp-action-text);
+  font: 600 0.95rem/1 var(--thp-font-sans);
+  padding: 0 18px;
+  transition: transform 160ms var(--thp-ease-out), opacity 160ms var(--thp-ease-out);
+}
+
+.thp-button-primary:hover { transform: translateY(-1px); }
+.thp-button-primary:focus-visible { outline: 3px solid var(--thp-focus); outline-offset: 3px; }
+
+@media (max-width: 768px) {
+  .thp-shell__main { padding: 16px; }
+}

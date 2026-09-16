@@ -1,0 +1,77 @@
+{
+  "skill_name": "apply-thpay-brand",
+  "evals": [
+    {
+      "id": "positive-01",
+      "type": "positive_trigger",
+      "prompt": "Redesenhe o dashboard do ThPay e deixe ele mais friendly para o analista de folha.",
+      "expected_behavior": "Use the canonical THP assets, light-first product system, semantic tokens, readable payroll hierarchy, responsive states and brand QA."
+    },
+    {
+      "id": "positive-02",
+      "type": "positive_trigger",
+      "prompt": "Crie a visão do colaborador do THP para benefícios, holerite e chamados.",
+      "expected_behavior": "Apply employee-facing language, larger spacing, benefit choice clarity, effective dates, service-desk status and canonical brand styling."
+    },
+    {
+      "id": "positive-03",
+      "type": "positive_trigger",
+      "prompt": "Faça uma landing page do ThPay com a identidade que criamos.",
+      "expected_behavior": "Build a friendly human-centered page using Warm Ivory, Ink Navy and modular Connection Blocks without generic fintech visual clichés."
+    },
+    {
+      "id": "positive-04",
+      "type": "positive_trigger",
+      "prompt": "Use o símbolo do THP como app icon.",
+      "expected_behavior": "Use the supplied Connector T/app-icon asset when a compact app icon is required; do not redraw the symbol."
+    },
+    {
+      "id": "positive-05",
+      "type": "positive_trigger",
+      "prompt": "Audite esse front do ThPay em 50%, 100% e 200% de zoom.",
+      "expected_behavior": "Check responsiveness, overlap, focus, tables, drawers, target sizes, contrast and exact brand compliance, then implement authorized fixes."
+    },
+    {
+      "id": "positive-06",
+      "type": "positive_trigger",
+      "prompt": "Monte uma apresentação institucional do THP para explicar folha contínua e benefícios.",
+      "expected_behavior": "Use the brand voice, modular editorial compositions, canonical lockup and restrained palette while keeping payroll claims precise."
+    },
+    {
+      "id": "negative-01",
+      "type": "negative_trigger",
+      "prompt": "Crie a identidade de uma cafeteria chamada Th Coffee.",
+      "expected_behavior": "Do not activate; this is an unrelated brand."
+    },
+    {
+      "id": "negative-02",
+      "type": "negative_trigger",
+      "prompt": "Otimize o cálculo de INSS dessa função Java.",
+      "expected_behavior": "Do not activate for backend-only work with no visual output."
+    },
+    {
+      "id": "negative-03",
+      "type": "negative_trigger",
+      "prompt": "Explique o que significa folha de pagamento.",
+      "expected_behavior": "Do not activate merely because payroll is discussed; brand application is not requested."
+    },
+    {
+      "id": "edge-01",
+      "type": "edge_case",
+      "prompt": "Faça um dashboard de RH em azul e rosa.",
+      "expected_behavior": "Do not assume THP without brand context; use the skill only if ThPay/THP is explicitly established by the conversation."
+    },
+    {
+      "id": "edge-02",
+      "type": "edge_case",
+      "prompt": "Quero deixar o ThPay todo preto com neon porque parece mais tech.",
+      "expected_behavior": "Preserve the light-first friendly identity, explain the mismatch, and offer a restrained optional dark theme instead of replacing the brand language."
+    },
+    {
+      "id": "edge-03",
+      "type": "edge_case",
+      "prompt": "Não tenho o logo; recrie o THP olhando um print.",
+      "expected_behavior": "Use the bundled canonical vector assets instead of tracing or regenerating from the screenshot."
+    }
+  ]
+}
