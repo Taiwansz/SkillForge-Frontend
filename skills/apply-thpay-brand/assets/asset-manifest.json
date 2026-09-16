@@ -1,0 +1,54 @@
+{
+  "brand": "THP / ThPay",
+  "skill": "apply-thpay-brand",
+  "version": "1.0.0",
+  "source_of_truth": "svg",
+  "identity": {
+    "primary_lockup": [
+      "logos/thpay-primary-dark.svg",
+      "logos/thpay-primary-light.svg",
+      "logos/thpay-primary-mono.svg"
+    ],
+    "primary_mark": "marks/thp-modular.svg",
+    "compact_mark": [
+      "marks/connector-t-dark.svg",
+      "marks/connector-t-light.svg"
+    ],
+    "app_icon": "icons/app-icon.svg",
+    "favicon": "icons/favicon.svg"
+  },
+  "png_fallbacks": [
+    "png/app-icon-1024.png",
+    "png/app-icon-512.png",
+    "png/apple-touch-icon-180.png",
+    "png/favicon-32.png",
+    "png/thp-modular-512.png"
+  ],
+  "visual": [
+    "visual/connection-blocks.svg",
+    "visual/connection-pattern.svg",
+    "visual/brand-reference.svg"
+  ],
+  "tokens": [
+    "tokens/thpay.css",
+    "tokens/thpay.tokens.json",
+    "tokens/tailwind-preset.ts"
+  ],
+  "templates": [
+    "templates/react/ThPayLogo.tsx",
+    "templates/react/ThPayShell.css",
+    "templates/thpay-starter.html"
+  ],
+  "palette": {
+    "ink_navy": "#101A44",
+    "cobalt": "#2F66F3",
+    "solar": "#FFC83D",
+    "mint": "#8FE1CF",
+    "blush": "#F7A7B8",
+    "coral": "#FF7D72",
+    "warm_ivory": "#FFF9F1",
+    "soft_paper": "#F6F2EC",
+    "line": "#E5DED5",
+    "muted_ink": "#64708A"
+  }
+}
